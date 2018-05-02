@@ -1,0 +1,65 @@
+body {
+    background-color: #F5A793;
+}
+
+#submit-button {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -70px;
+    margin-top: 280px;
+}
+
+#btn {
+    width: 140px;
+    font-size: 30px;
+    padding: 8px;
+    font-family: 'Monofett', cursive;
+    background-color: rgb(216, 147, 130);
+    color: white;
+    text-shadow: 2px 2px 2px black;
+    border: 3px solid black;
+    cursor: pointer;
+}
+
+#btn:active {
+    transform: translateY(1px);
+}
+
+#coin-image {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -198px;
+    margin-top: -200px;
+    padding: 20px;
+    background-color: rgb(216, 147, 130);
+    border: 3px solid black;
+}
+
+#title {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-top: -400px;
+    margin-left: -288px;
+    font-family: 'Monofett', cursive;
+    font-size: 120px;
+    text-shadow: 4px 4px 4px black;
+    color: white;
+}
+
+#speaker {
+    background: url("speaker.png");
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: 144px;;
+    margin-left: -190px;
+    border: 2px solid black;
+    cursor: pointer;
+}
+
+#speaker:active {
+    transform: translateY(1px);
+}
